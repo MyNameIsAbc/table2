@@ -7,7 +7,7 @@ apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.jachat.myapplication"
+        applicationId "com.jachat.myapplicationss"
         minSdkVersion 16
         targetSdkVersion 28
         versionCode 1
@@ -33,6 +33,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     implementation 'org.jetbrains.anko:anko-sdk15:0.8.2' // sdk19, sdk21, sdk23 are also available
     implementation 'org.jetbrains.anko:anko-support-v4:0.8.2' // In case you need support-v4 bindings
-    implementation 'org.jetbrains.anko:anko-appcompat-v7:0.8.2' // For appcompat-v7 bindings
+    implementation 'org.jetbrains.anko:anko-appcompat-v7:0.8.2'
+    implementation project(path: ':mylibrary') // For appcompat-v7 bindings
 
 }

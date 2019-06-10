@@ -1,4 +1,4 @@
-package com.jachat.myapplication
+package com.jachat.myapplicationss
 
 import org.junit.Test
 
